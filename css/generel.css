@@ -1,0 +1,134 @@
+@font-face {
+  font-family: hind semi;
+  src: url(/fonts/Hind-SemiBold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: hind;
+  src: url(/fonts/Hind-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: bebas neue;
+  src: url(/fonts/BebasNeue-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  font-family: bebas neue;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: hind semi;
+  font-size: 2em;
+}
+
+p {
+  font-family: hind;
+  font-size: 1.5em;
+}
+
+.caption2 {
+  font-family: hind;
+  font-size: 1.2em;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+header {
+  background-color: #594302;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+li {
+  font-size: 2em;
+  font-family: bebas neue;
+  color: #fff;
+}
+
+.logo img {
+  width: 2em;
+  display: block;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.caption1 {
+  font-family: bebas neue;
+  font-size: 3em;
+}
+
+.hero1 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.hero1 img {
+  width: 100%;
+  display: block;
+}
+
+.hero2 {
+  display: grid;
+}
+
+.hero2 img {
+  grid-area: 1 / 1;
+}
+
+.hero2 .caption1 {
+  grid-area: 1 / 1;
+  align-self: end;
+  justify-self: stretch;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 4em;
+}
+
+.billede1 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.billede1 img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 2em;
+  background: #f0f0f0;
+}
+
+.billede2 {
+  display: grid;
+}
+
+.billede2 img {
+  grid-area: 1 / 1;
+}
+
+.billede2 .caption2 {
+  grid-area: 1 / 1;
+  justify-self: stretch;
+  text-align: center;
+  color: white;
+  padding: 1em;
+}
+
+.billede2 .caption2 {
+  place-self: start start;
+}
