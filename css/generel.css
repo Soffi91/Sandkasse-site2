@@ -1,18 +1,18 @@
 @font-face {
   font-family: hind semi;
-  src: url(fonts/Hind-SemiBold.woff);
+  src: url(../fonts/Hind-SemiBold.woff);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: hind;
-  src: url(fonts/Hind-Regular.woff);
+  src: url(../fonts/Hind-Regular.woff);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: bebas neue;
-  src: url(fonts/BebasNeue-Regular.woff);
+  src: url(../fonts/BebasNeue-Regular.woff);
   font-weight: normal;
   font-style: normal;
 }
